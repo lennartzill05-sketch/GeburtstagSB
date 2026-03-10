@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Meine Webseite</title>
+
+<style>
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Hintergrundbild über gesamten Bildschirm */
+.background {
+    background-image: url("hintergrund.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* Container für die Bilder darüber */
+.content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Bilder */
+.content img {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* Link */
+.link {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="background">
+
+    <div class="content">
+
+        <img src="IMG_2605.jpg">
+        <img src="IMG_2606.jpg">
+        
+
+        <div class="link">
+            <a href="https://example.com">Hier klicken</a>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
