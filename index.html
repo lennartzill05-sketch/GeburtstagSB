@@ -24,18 +24,19 @@ html, body {
 
 /* Container für die Bilder darüber */
 .content {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    width: 100%;
+    height: 100%;
     text-align: center;
 }
 
 /* Bilder */
 .content img {
     display: block;
-    width: 300px;
-    margin: 20px auto;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin: 0;
 }
 
 /* Link */
@@ -50,17 +51,30 @@ html, body {
 <body>
 
 <div class="background">
-
+<br>
+    <div class="link">
+        <p>VERBINDLICHER GUTSCHEIN</p>
+        <p>Alles Gute zum Geburtstag liebe Schweinebacke! Zeit miteinadner ist ein wertvolles Gut. Deswegen verschenke ich sie einfach, weil du es mir Wert bist. Wie ich in der letzten Woche in Erfahrung gebracht habe, ist es wichtig Versprechen institutionell abzusichern. Das bedeutet, dass dieser Gutschein höchstgradig verbindlich ist, da er hier niedergeschrieben ist.</p>
+        <p>Aber, wofür ist denn dieser Gutschein eigentlich gedacht? Das fragen sich die beiden Gezeichnetbacken auch. Dafür solltst du nun scrollen.</p>
+    </div>
     <div class="content">
-
-        <img src="IMG_2605.jpg">
+        <img src="kuchen.jpg">
+        <img src="ganzes.jpg">
+        <br>
         <img src="IMG_2606.jpg">
+        <br>
+        <br>
+        <img src="Festung0.1.png"> 
+        <img src="Festung0.png">
+        <img src="Festung1.png">
+        <img src="Festung2.png">
         
-
         <div class="link">
-            <a href="https://example.com">Hier klicken</a>
+            <p>Falls du dir es noch immer nicht Vorstellen kannst du</p>
+            <a href="https://youtu.be/a0iU8eDwWH4">hier klicken</a>
+            <p>Falls du fragen zu den Öffnungszeiten hast:</p>
         </div>
-
+        <img src="oeffnung.png">
     </div>
 
 </div>
